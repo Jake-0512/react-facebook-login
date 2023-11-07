@@ -12,6 +12,7 @@ function FacebookLoginComponent() {
           onSuccess={(response) => {
             console.log('Login Success!');
             console.log('id: ', response.id);
+            console.log('response: ', response);
           }}
           onFail={(error) => {
             console.log('Login Failed!');
